@@ -1,9 +1,6 @@
 services:
   next:
-    build:
-      context: ./next
-      args:
-        DATABASE_URL: ${DATABASE_URL}
+    build: ./next
     container_name: next
     restart: always
     env_file: .env
