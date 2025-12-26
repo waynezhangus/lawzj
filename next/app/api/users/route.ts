@@ -1,4 +1,4 @@
-import { db } from '@/db/drizzle';
+import { db } from '@/db/client';
 import { usersTable } from '@/db/schema';
 
 export async function GET() {
