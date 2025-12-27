@@ -6,14 +6,22 @@ FROM node:24-alpine AS base
 # Install dependencies only when needed
 FROM base AS deps
 # To add the missing shared libraries to alpine image
-RUN apk add --no-cache libc6-compat
+# RUN apk add --no-cache libc6-compat
 WORKDIR /app
+
+# Limit pnpm concurrency to avoid OOM
+ARG PNPM_CONCURRENCY=1
+
+ENV PNPM_MAX_WORKERS=${PNPM_CONCURRENCY}
+ENV PNPM_STORE_WORKERS=${PNPM_CONCURRENCY}
+ENV NODE_OPTIONS="--max-old-space-size=512"
+
 # Install dependencies based on preferred package manager
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* .npmrc* ./
 RUN \
     if [ -f yarn.lock ]; then yarn --frozen-lockfile; \
     elif [ -f package-lock.json ]; then npm ci; \
-    elif [ -f pnpm-lock.yaml ]; then corepack enable pnpm && pnpm i --frozen-lockfile; \
+    elif [ -f pnpm-lock.yaml ]; then corepack enable pnpm && pnpm i --frozen-lockfile --child-concurrency=${PNPM_CONCURRENCY}; \
     else echo "Lockfile not found." && exit 1; \
     fi
 
