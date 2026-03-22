@@ -1,6 +1,6 @@
 services:
   next:
-    build: ./next
+    image: ghcr.io/waynezhangus/lawzj-next:latest
     container_name: next
     restart: always
     env_file: .env
