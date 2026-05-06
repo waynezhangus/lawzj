@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import Header from '@/app/ui/header';
 import Footer from '@/app/ui/footer';
 import '@/app/globals.css';
-import { getDictionary } from '@/app/dictionaries/dictionaries';
+import { getDictionary, Locale } from '@/app/dictionaries/dictionaries';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -33,14 +33,9 @@ export async function generateMetadata({
   };
 }
 
-type RootLayoutProps = {
-  children: React.ReactNode;
-  params: Promise<{ lang: 'zh' | 'en' }>;
-};
-
-export default async function RootLayout(props: RootLayoutProps) {
+export default async function RootLayout(props: LayoutProps<'/[lang]'>) {
   const { lang } = await props.params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
   return (
     <html lang={lang} className="scroll-smooth" data-scroll-behavior="smooth">
       <body
