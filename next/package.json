@@ -12,26 +12,29 @@
     "db:admin": "drizzle-kit studio"
   },
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "drizzle-orm": "^0.45.1",
-    "next": "16.1.1",
-    "pg": "^8.16.3",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "@formatjs/intl-localematcher": "^0.8.5",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "negotiator": "^1.0.0",
+    "next": "16.2.4",
+    "pg": "^8.20.0",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "@types/node": "^25.0.3",
-    "@types/pg": "^8.16.0",
-    "@types/react": "^19.2.7",
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/negotiator": "^0.6.4",
+    "@types/node": "^25.6.0",
+    "@types/pg": "^8.20.0",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "drizzle-kit": "^0.31.8",
-    "eslint": "^9.39.2",
-    "eslint-config-next": "16.1.1",
+    "drizzle-kit": "^0.31.10",
+    "eslint": "^10.3.0",
+    "eslint-config-next": "16.2.4",
     "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.7.4",
-    "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3"
+    "prettier": "^3.8.3",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3"
   },
   "packageManager": "pnpm@10.26.2"
 }

@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "ZhuoJian (Dalian) Law Firm | 卓建（大连）律师事务所",
+    "description": "法律 × 财务 × 税务 一体化专业服务机构"
+  },
+  "header": {
+    "logoTitle": "卓建（大连）律师事务所",
+    "logoSubtitle": "ZhuoJian (Dalian) Law Firm",
+    "nav": {
+      "about": "关于卓建",
+      "aboutHeadquarters": "总所介绍",
+      "aboutDalian": "大连分所",
+      "aboutLocations": "办公网络",
+      "aboutClients": "客户与荣誉",
+      "aboutQualifications": "资质证书",
+      "professionals": "专业团队",
+      "expertise": "专业领域",
+      "expertisePractices": "业务领域",
+      "expertiseSectors": "行业领域",
+      "expertiseServices": "综合服务",
+      "news": "新闻/洞察"
+    }
+  },
+  "home": {
+    "hero": {
+      "label": "卓建（大连）律师事务所",
+      "title": "法律 × 财务 × 税务\n一体化专业服务机构",
+      "description": "依托全国化律师网络与本地化服务能力，为企业与个人提供高效、专业的一站式法律解决方案。",
+      "ctaPrimary": "立即咨询",
+      "ctaSecondary": "了解更多"
+    },
+    "stats": [
+      {
+        "value": "2007",
+        "label": "总所成立时间"
+      },
+      {
+        "value": "425+",
+        "label": "总所执业律师"
+      },
+      {
+        "value": "25",
+        "label": "全国及海外分支机构"
+      },
+      {
+        "value": "400㎡+",
+        "label": "大连分所办公面积"
+      }
+    ],
+    "about": {
+      "label": "ABOUT US",
+      "title": "依托全国布局，深耕本地服务",
+      "paragraphs": [
+        "卓建（大连）律师事务所系广东卓建律师事务所分支机构，依托总所全国布局与专业资源，构建本地化高水平法律服务团队。",
+        "卓建律师事务所成立于2007年，总部位于深圳CBD，现已在全国及海外设立多家分支机构，持续推进国际化发展，并已取得省一级破产管理人、专利代理、商标代理等重要资质。",
+        "大连分所坚持“不求最大，但求最精”的发展理念，突出“法律 + 财务 + 税务”一体化服务模式，为客户提供专业、勤勉、高效的综合法律服务。"
+      ],
+      "promise": {
+        "title": "服务承诺",
+        "items": [
+          {
+            "label": "仁心：",
+            "desc": "对每一位客户心存善意"
+          },
+          {
+            "label": "热心：",
+            "desc": "为每一位客户热忱服务"
+          },
+          {
+            "label": "匠心：",
+            "desc": "把每一个案件办成精品"
+          }
+        ]
+      }
+    },
+    "practiceAreas": {
+      "label": "PRACTICE AREAS",
+      "title": "核心业务领域",
+      "description": "覆盖企业经营全周期与个人法律需求，提供诉讼、仲裁、常年法律顾问及专项法律服务。",
+      "items": [
+        "证券与资本市场",
+        "私募基金与股权投资",
+        "并购重组与融资担保",
+        "诉讼与仲裁",
+        "破产清算与重整",
+        "企业风险管理",
+        "知识产权",
+        "劳动人事",
+        "涉外法律事务",
+        "婚姻家事与财富传承"
+      ]
+    },
+    "strengths": {
+      "label": "WHY CHOOSE US",
+      "title": "核心优势",
+      "items": [
+        {
+          "title": "一体化服务模式",
+          "description": "创新融合“法律 + 财务 + 税务”服务能力，为客户提供更具商业价值的综合解决方案。"
+        },
+        {
+          "title": "全国资源协同",
+          "description": "依托总所及全国分支网络，支持跨区域案件与项目协同办理。"
+        },
+        {
+          "title": "专业团队配置",
+          "description": "律师团队具备注册会计师、证券、基金等多重专业背景，兼顾法律与商业视角。"
+        },
+        {
+          "title": "实战经验丰富",
+          "description": "曾承接大型企业、上市公司诉讼业务及破产咨询项目，具备复杂事务处理能力。"
+        }
+      ]
+    },
+    "qualifications": {
+      "label": "QUALIFICATIONS",
+      "title": "专业实力与资质",
+      "description": "多项权威资质与行业认可，为客户提供稳定、可靠、专业的法律服务保障。",
+      "items": [
+        "全国优秀律师事务所",
+        "省一级破产管理人资质",
+        "专利代理资质",
+        "商标代理资质",
+        "大连市破产协会会员单位",
+        "破产案件管理人资质"
+      ]
+    },
+    "capabilities": {
+      "label": "REPRESENTATIVE CAPABILITIES",
+      "title": "代表能力",
+      "description": "聚焦企业关键法律问题，提供可执行、可落地的解决方案。",
+      "items": [
+        "不良资产处置与尽职调查",
+        "企业合规与风险控制",
+        "重大商事诉讼与仲裁",
+        "资产重组与破产管理"
+      ]
+    }
+  },
+  "footer": {
+    "brand": {
+      "name": "卓建（大连）律师事务所",
+      "description": "依托全国化律师网络与本地化服务能力，为企业与个人提供高效、专业的一站式法律解决方案。"
+    },
+    "links": {
+      "quickLinksTitle": "快速链接",
+      "about": "关于我们",
+      "professionals": "专业团队",
+      "expertise": "专业领域",
+      "news": "新闻洞察"
+    },
+    "contact": {
+      "title": "联系与招募",
+      "contactUs": "联系我们",
+      "careers": "加入我们"
+    },
+    "address": {
+      "title": "大连办公室",
+      "line1": "辽宁省大连市甘井子区",
+      "line2": "火炬路32号创业大厦A座502室",
+      "phone": "+86 (0411) 0000-0000"
+    },
+    "legal": {
+      "copyright": "© {year} 广东卓建（大连）律师事务所 版权所有",
+      "icp": "辽ICP备2026008307号",
+      "police": "辽公网安备 申请中"
+    }
+  }
+}

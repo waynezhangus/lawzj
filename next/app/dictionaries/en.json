@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "ZhuoJian (Dalian) Law Firm",
+    "description": "Integrated Professional Services: Legal × Financial × Tax"
+  },
+  "header": {
+    "logoTitle": "卓建（大连）律师事务所",
+    "logoSubtitle": "ZhuoJian (Dalian) Law Firm",
+    "nav": {
+      "about": "About Us",
+      "aboutHeadquarters": "Headquarters",
+      "aboutDalian": "Dalian Office",
+      "aboutLocations": "Locations",
+      "aboutClients": "Clients & Honors",
+      "aboutQualifications": "Qualifications",
+      "professionals": "Professionals",
+      "expertise": "Expertise",
+      "expertisePractices": "Practices",
+      "expertiseSectors": "Sectors",
+      "expertiseServices": "Services",
+      "news": "News & Insights"
+    }
+  },
+  "home": {
+    "hero": {
+      "label": "ZhuoJian (Dalian) Law Firm",
+      "title": "Legal × Financial × Tax\nIntegrated Professional Services",
+      "description": "Relying on a nationwide network of lawyers and localized service capabilities, we provide efficient, professional, one-stop legal solutions for enterprises and individuals.",
+      "ctaPrimary": "Consult Now",
+      "ctaSecondary": "Learn More"
+    },
+    "stats": [
+      {
+        "value": "2007",
+        "label": "Founded"
+      },
+      {
+        "value": "425+",
+        "label": "Attorneys Nationwide"
+      },
+      {
+        "value": "25",
+        "label": "Domestic & Overseas Branches"
+      },
+      {
+        "value": "400㎡+",
+        "label": "Dalian Office Space"
+      }
+    ],
+    "about": {
+      "label": "ABOUT US",
+      "title": "National Network, Local Expertise",
+      "paragraphs": [
+        "ZhuoJian (Dalian) Law Firm is a branch of Guangdong ZhuoJian Law Firm. Leveraging the headquarters' national network and professional resources, we have built a high-level localized legal service team.",
+        "Founded in 2007 and headquartered in the Shenzhen CBD, ZhuoJian Law Firm has established multiple branches domestically and overseas. We continue to advance our international development and have obtained vital qualifications, including Provincial Level 1 Bankruptcy Administrator, Patent Agency, and Trademark Agency.",
+        "The Dalian branch adheres to the development philosophy of 'seeking excellence over size.' We emphasize an integrated 'Legal + Financial + Tax' service model to provide clients with professional, diligent, and efficient comprehensive legal services."
+      ],
+      "promise": {
+        "title": "Our Commitment",
+        "items": [
+          {
+            "label": "Benevolence:",
+            "desc": "Holding goodwill toward every client."
+          },
+          {
+            "label": "Dedication:",
+            "desc": "Serving every client with enthusiasm."
+          },
+          {
+            "label": "Craftsmanship:",
+            "desc": "Turning every case into a masterpiece."
+          }
+        ]
+      }
+    },
+    "practiceAreas": {
+      "label": "PRACTICE AREAS",
+      "title": "Core Practice Areas",
+      "description": "Covering the full lifecycle of business operations and individual legal needs, providing litigation, arbitration, perennial legal counsel, and specialized legal services.",
+      "items": [
+        "Securities & Capital Markets",
+        "Private Equity & Investment",
+        "M&A and Financing Guarantees",
+        "Litigation & Arbitration",
+        "Bankruptcy Liquidation & Reorganization",
+        "Enterprise Risk Management",
+        "Intellectual Property",
+        "Labor & Human Resources",
+        "Foreign Legal Affairs",
+        "Marriage, Family & Wealth Inheritance"
+      ]
+    },
+    "strengths": {
+      "label": "WHY CHOOSE US",
+      "title": "Our Core Strengths",
+      "items": [
+        {
+          "title": "Integrated Service Model",
+          "description": "Innovatively integrating 'Legal + Financial + Tax' capabilities to provide clients with comprehensive solutions of greater commercial value."
+        },
+        {
+          "title": "National Resource Synergy",
+          "description": "Relying on our headquarters and national branch network to support cross-regional cases and project collaboration."
+        },
+        {
+          "title": "Professional Team Configuration",
+          "description": "Our team possesses multiple professional backgrounds, including CPAs, securities, and funds, balancing legal and commercial perspectives."
+        },
+        {
+          "title": "Rich Practical Experience",
+          "description": "Extensive experience handling litigation and bankruptcy consulting projects for large enterprises and listed companies, demonstrating our capability in complex matters."
+        }
+      ]
+    },
+    "qualifications": {
+      "label": "QUALIFICATIONS",
+      "title": "Professional Strength & Qualifications",
+      "description": "Multiple authoritative qualifications and industry recognition, providing clients with stable, reliable, and professional legal service guarantees.",
+      "items": [
+        "National Outstanding Law Firm",
+        "Provincial Level 1 Bankruptcy Administrator",
+        "Patent Agency Qualification",
+        "Trademark Agency Qualification",
+        "Dalian Bankruptcy Association Member",
+        "Bankruptcy Case Administrator Qualification"
+      ]
+    },
+    "capabilities": {
+      "label": "REPRESENTATIVE CAPABILITIES",
+      "title": "Representative Capabilities",
+      "description": "Focusing on key corporate legal issues to provide actionable, implementable solutions.",
+      "items": [
+        "NPL Disposal & Due Diligence",
+        "Corporate Compliance & Risk Control",
+        "Major Commercial Litigation & Arbitration",
+        "Asset Reorganization & Bankruptcy Management"
+      ]
+    }
+  },
+  "footer": {
+    "brand": {
+      "name": "ZhuoJian (Dalian) Law Firm",
+      "description": "Relying on a nationwide network of lawyers and localized service capabilities, we provide efficient, professional, one-stop legal solutions for enterprises and individuals."
+    },
+    "links": {
+      "quickLinksTitle": "Quick Links",
+      "about": "About Us",
+      "professionals": "Professionals",
+      "expertise": "Expertise",
+      "news": "Insights"
+    },
+    "contact": {
+      "title": "Contact & Careers",
+      "contactUs": "Contact Us",
+      "careers": "Careers"
+    },
+    "address": {
+      "title": "Dalian Office",
+      "line1": "Room 502, Building A, Chuangye Mansion,",
+      "line2": "No. 32 Huoju Road, Ganjingzi District, Dalian, Liaoning",
+      "phone": "+86 (0411) 0000-0000"
+    },
+    "legal": {
+      "copyright": "© {year} Guangdong ZhuoJian (Dalian) Law Firm. All rights reserved.",
+      "icp": "Liao ICP 2026008307",
+      "police": "Liao GWA (Pending)"
+    }
+  }
+}
