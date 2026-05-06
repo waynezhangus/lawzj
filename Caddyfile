@@ -1,0 +1,4 @@
+lawdl.com, www.lawdl.com {
+  encode gzip zstd
+  reverse_proxy next:3000
+}
