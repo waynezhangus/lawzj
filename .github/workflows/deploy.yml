@@ -70,5 +70,5 @@ jobs:
             git reset --hard origin/main
 
             docker compose pull next
-            docker compose up -d next nginx
+            docker compose up -d
             docker image prune -af --filter "until=72h"
