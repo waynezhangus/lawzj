@@ -1,6 +1,4 @@
-# lawzj
-
-Official website for Zhuojian Law Firm
+Official website for Zhuojian Dalian Law Firm
 
 Create your own .env
 
