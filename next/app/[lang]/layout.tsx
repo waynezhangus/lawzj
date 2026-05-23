@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
-import Header from '@/app/ui/header';
-import Footer from '@/app/ui/footer';
+import Header from '@/app/ui/Header';
+import Footer from '@/app/ui/Footer';
 import '@/app/globals.css';
 import { getDictionary, Locale } from '@/app/dictionaries/dictionaries';
 
@@ -41,13 +41,10 @@ export default async function RootLayout(props: LayoutProps<'/[lang]'>) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
-        {/* Pass the dictionary and current language to your Header component */}
         <Header dict={dict} lang={lang} />
 
-        {/* Main content wrapper */}
         <div className="flex-1">{props.children}</div>
 
-        {/* Pass the dictionary to your Footer component */}
         <Footer dict={dict} />
       </body>
     </html>

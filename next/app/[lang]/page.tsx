@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getDictionary, hasLocale } from '@/app/dictionaries/dictionaries';
+import WechatModal from '@/app/ui/WechatModal';
 
 export default async function HomePage(props: PageProps<'/[lang]'>) {
   const { lang } = await props.params;
@@ -26,12 +27,10 @@ export default async function HomePage(props: PageProps<'/[lang]'>) {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="#contact"
-                className="rounded-xl bg-slate-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-slate-800"
-              >
-                {home.hero.ctaPrimary}
-              </a>
+              <WechatModal
+                buttonText={home.hero.ctaPrimary}
+                buttonClassName="rounded-xl bg-slate-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-slate-800"
+              />
               <a
                 href="#about"
                 className="rounded-xl border border-slate-300 px-6 py-3 text-sm font-medium text-slate-700 transition hover:border-slate-400 hover:text-slate-900"

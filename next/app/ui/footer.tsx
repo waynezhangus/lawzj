@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Dictionary } from '@/app/dictionaries/dictionaries';
+import WechatModal from '@/app/ui/WechatModal';
 
 interface FooterProps {
   dict: Dictionary;
@@ -55,9 +56,10 @@ export default function Footer({ dict }: FooterProps) {
             <h3 className="font-semibold text-slate-900">{dict.footer.contact.title}</h3>
             <ul className="mt-4 space-y-3">
               <li>
-                <Link href="/contact" className="hover:text-slate-900">
-                  {dict.footer.contact.contactUs}
-                </Link>
+                <WechatModal
+                  buttonText={dict.footer.contact.contactUs}
+                  buttonClassName="hover:text-slate-900 text-left transition"
+                />
               </li>
               <li>
                 <Link href="/careers" className="hover:text-slate-900">

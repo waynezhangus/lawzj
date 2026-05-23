@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import LanguageSwitcher from './languageSwitcher'; // Adjust path if needed
+import LanguageSwitcher from './LanguageSwitcher'; // Adjust path if needed
 import { Dictionary } from '@/app/dictionaries/dictionaries';
 
 interface HeaderProps {
