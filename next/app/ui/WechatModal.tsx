@@ -42,7 +42,7 @@ export default function WechatModal({ buttonText, buttonClassName }: WechatModal
       {/* The Modal Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/60 p-2 sm:p-4 backdrop-blur-sm transition-opacity"
+          className="fixed inset-0 z-100 flex items-center justify-center bg-slate-900/60 p-2 sm:p-4 backdrop-blur-sm transition-opacity"
           onClick={() => setIsOpen(false)} // Clicking the overlay closes the modal
         >
           {/* The Modal Content Container */}
